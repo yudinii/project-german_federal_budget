@@ -33,7 +33,7 @@ For the preparation,
 * I _filtered the dataset only with the expenditure_ to focus specifically on the expenditure data for analyzing how much the German federal allocates to the migrant sector
 * (for python viz) I made filtered data which only includes data related with 'migration', 'refugee'. 
 
-I used Jupyter Notebook to create quick visualizations in Python and prepare the data for visualization in Tableau.
+I used Jupyter Notebook to create quick visualizations in Python and prepare the data for visualization in Tableau.<br />
 Here's the code I used below. 
 
 **1) Import the libaries and read the dataset**
