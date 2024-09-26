@@ -16,9 +16,8 @@ Through this project, I wanted to answer these questions.
 
 *- Are there any observable trends in the allocated budget over time?*
 
-
-
-
+< br/>
+< br/>
 ----
 ### 1. Data preparation
 
