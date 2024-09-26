@@ -16,8 +16,10 @@ Through this project, I wanted to answer these questions.
 
 *- Are there any observable trends in the allocated budget over time?*
 
-----
 
+
+
+----
 ### 1. Data preparation
 
 First, from the official [bundeshaushalt website](https://www.bundeshaushalt.de/DE/Download-Portal/download-portal.html), I downloaded `bundeshaushalt` data from 2020 to 2024 as CSV files.
