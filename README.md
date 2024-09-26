@@ -1,6 +1,6 @@
 # (project)german_federal_budget_visualization
 
-![header](https://capsule-render.vercel.app/api?type=venom&color=0:EEFF00,100:a82da8&height=400&text=project-migration&stroke=00FF00)
+![header](https://capsule-render.vercel.app/api?type=venom&color=0:418FDE,100:0033A0&height=200&text=project-migration&stroke=0033A0)
 
 
 ## Goal
