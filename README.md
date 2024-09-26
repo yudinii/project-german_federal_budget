@@ -69,20 +69,28 @@ column_mapping = {
 
 haushalt_2024.rename(columns=column_mapping, inplace=True)
 ```
-**3) Check the dataset**
+**3)Filter the dataset only with expeniture**
 ```.py
-haushalt_2024.isnull().sum()
+haushalt_2024_expenditure = haushalt_2024[haushalt_2024['income expenditure'] == 'E']
+```
+**4)Remove 2 columns which only have null values**
+```.py
+haushalt_2024_expenditure = haushalt_2024_expenditure.drop(['title group', 'title group text'], axis=1)
+```
+**5)Check the dataset**
+```.py
+haushalt_2024_expenditure.isnull().sum()
 ```
 ```.py
-haushalt_2024.info()
+haushalt_2024_expenditure.info()
 ```
 ```.py
-unique_values_per_column = haushalt_2024.nunique()
+unique_values_per_column = haushalt_2024_expenditure.nunique()
 print(unique_values_per_column)
 ```
 ```.py
-for column in haushalt_2024.columns:
-    unique_values = haushalt_2024[column].unique()
+for column in haushalt_2024_expenditure.columns:
+    unique_values = haushalt_2024_expenditure[column].unique()
     print(f"Unique values in '{column}':")
     print(unique_values)
     print("\n")
