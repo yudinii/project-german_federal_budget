@@ -37,19 +37,19 @@ I used Jupyter Notebook to create quick visualizations in Python and prepare the
 Here's the code I used below. 
 
 **1) Import the libaries and read the dataset**
-```
+```ruby
 import pandas as pd
 import numpy as np
 
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
-```
+```ruby
 haushalt_2024 = pd.read_csv("/Users/yujin/Desktop/projects/project-german_federal_budget_viz/dataset/HH_2024.csv", delimiter=';', on_bad_lines='skip')
 ```
 
 **2) Change the column names to English**
-```
+```ruby
 column_mapping = {
     'einzelplan': 'individual plan',
     'einzelplan-text': 'individual plan text',
@@ -70,10 +70,10 @@ column_mapping = {
 haushalt_2024.rename(columns=column_mapping, inplace=True)
 ```
 **3) Check the dataset**
-```
+```ruby
 haushalt_2024.isnull().sum()
 ```
-```
+```ruby
 haushalt_2024.info()
 ```
 ```
