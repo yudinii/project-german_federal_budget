@@ -69,15 +69,15 @@ column_mapping = {
 
 haushalt_2024.rename(columns=column_mapping, inplace=True)
 ```
-**3)Filter the dataset only with expeniture**
+**3) Filter the dataset only with expeniture**
 ```.py
 haushalt_2024_expenditure = haushalt_2024[haushalt_2024['income expenditure'] == 'E']
 ```
-**4)Remove 2 columns which only have null values**
+**4) Remove 2 columns which only have null values**
 ```.py
 haushalt_2024_expenditure = haushalt_2024_expenditure.drop(['title group', 'title group text'], axis=1)
 ```
-**5)Check the dataset**
+**5) Check the dataset**
 ```.py
 haushalt_2024_expenditure.isnull().sum()
 ```
