@@ -28,9 +28,9 @@ Through this project, I wanted to answer these questions.
 First, from the official [bundeshaushalt website](https://www.bundeshaushalt.de/DE/Download-Portal/download-portal.html), I downloaded `bundeshaushalt` data from 2020 to 2024 as CSV files.
 
 For the preparation,
-* I changed the column names into English for better understanding
-* I removed 2 null columns which have no value inside (`title group`, `title group text`)
-* I filtered the dataset only with the expenditure to focus specifically on the expenditure data for analyzing how much the German federal allocates to the migrant sector
+* I _changed the column names into English_ for better understanding
+* I _removed 2 null columns_ which have no values inside (`title group`, `title group text`)
+* I _filtered the dataset only with the expenditure_ to focus specifically on the expenditure data for analyzing how much the German federal allocates to the migrant sector
 * (for python viz) I made filtered data which only includes data related with 'migration', 'refugee'. 
 
 I used Jupyter Notebook to create quick visualizations in Python and prepare the data for visualization in Tableau.
