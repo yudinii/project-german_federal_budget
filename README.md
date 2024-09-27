@@ -23,14 +23,20 @@ Through this project, I wanted to answer these questions.
 &nbsp; 
 
 ----
-### 1. Data preparation
+### 1. Data Explanation
 
 First, from the official [bundeshaushalt website](https://www.bundeshaushalt.de/DE/Download-Portal/download-portal.html), I downloaded `bundeshaushalt` data from 2020 to 2024 as CSV files.
 
+The data has total 14 columns : `'einzelplan'`, 'einzelplan-text', 'einahmen-ausgaben', 'einahmen-ausgaben-text', 'kapitel', 'kapitel-text', 'titel', 'funktion', 'titel-text', 'flex', 'seite', 'soll ', 'titelgruppe', 'tgr-text'
+
+### 2. Data preparation
+
+
 For the preparation,
-* I _changed the column names into English_ for better understanding
+* I _translated all the column names and values into English_ for better understanding
 * I _removed 2 null columns_ which have no values inside (`title group`, `title group text`)
 * I _filtered the dataset only with the expenditure_ to focus specifically on the expenditure data for analyzing how much the German federal allocates to the migrant sector
+* Also, make all text entries into broader categories so that we can see 
 * (for python viz) I made filtered data which only includes data related with 'migration', 'refugee'. 
 
 I used Jupyter Notebook to create quick visualizations in Python and prepare the data for visualization in Tableau.<br />
@@ -95,4 +101,9 @@ for column in haushalt_2024_expenditure.columns:
     print(unique_values)
     print("\n")
 ```
-**4) (for python viz) Filter the dataset**
+**6) Translate text values into English**
+```.py
+
+```
+
+(for python viz) Filter the dataset**
