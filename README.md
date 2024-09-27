@@ -27,7 +27,7 @@ Through this project, I wanted to answer these questions.
 
 First, from the official [bundeshaushalt website](https://www.bundeshaushalt.de/DE/Download-Portal/download-portal.html), I downloaded `bundeshaushalt` data from 2020 to 2024 as CSV files.
 
-The data has total 14 columns : `'einzelplan'`, 'einzelplan-text', 'einahmen-ausgaben', 'einahmen-ausgaben-text', 'kapitel', 'kapitel-text', 'titel', 'funktion', 'titel-text', 'flex', 'seite', 'soll ', 'titelgruppe', 'tgr-text'
+The data has total 14 columns : `'einzelplan'`, `'einzelplan-text'`, `'einahmen-ausgaben'`, `'einahmen-ausgaben-text'`, `'kapitel'`, `'kapitel-text'`, `'titel'`, `'funktion'`, `'titel-text'`, `'flex'`, `'seite'`, `'soll '`, `'titelgruppe'`, `'tgr-text'`
 
 ### 2. Data preparation
 
