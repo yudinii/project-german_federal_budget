@@ -33,7 +33,7 @@ The data has total 14 columns : `'einzelplan'`, `'einzelplan-text'`, `'einahmen-
 
 
 For the preparation,
-* I _translated all the column names and values into English_ for better understanding
+* I _translated the column names and values into English_ for better understanding
 * I _removed 2 null columns_ which have no values inside (`title group`, `title group text`)
 * I _filtered the dataset only with the expenditure_ to focus specifically on the expenditure data for analyzing how much the German federal allocates to the migrant sector
 * Also, make all text entries into broader categories so that we can see 
